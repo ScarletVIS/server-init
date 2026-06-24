@@ -46,6 +46,7 @@ run_step 04-docker.sh   "Docker"
 run_step 05-packages.sh "дополнительные пакеты"
 run_step 06-project.sh  "проект из git"
 run_step 07-ssl.sh      "SSL-сертификат (Let's Encrypt)"
+run_step 08-proxy.sh    "прокси-туннель через VLESS (клиент Xray)"
 
 hdr "Готово"
 ok "Сервер настроен."
