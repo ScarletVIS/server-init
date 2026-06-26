@@ -111,7 +111,7 @@ if [[ -n "$LE_EMAIL" ]]; then
 else
   ARGS+=(--register-unsafely-without-email)
 fi
-ARGS+=(--agree-tos -n)
+ARGS+=(--agree-tos -n --expand)
 if [[ "$METHOD" == nginx || "$METHOD" == apache ]]; then
   (( REDIRECT )) && ARGS+=(--redirect) || ARGS+=(--no-redirect)
 fi
